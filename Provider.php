@@ -34,7 +34,7 @@ class Provider extends AbstractProvider
      */
     protected function getTokenUrl()
     {
-        return 'https://auth.pnj.ac.id/userinfo';
+        return 'https://auth.pnj.ac.id/oauth2/token';
     }
 
     /**
@@ -45,6 +45,7 @@ class Provider extends AbstractProvider
         $response = $this->getHttpClient()->post('https://auth.pnj.ac.id/userinfo', [
             'headers' => [
                 'Authorization' => 'Bearer '.$token,
+                'Accept' => 'application/json'
             ],
         ]);
 
