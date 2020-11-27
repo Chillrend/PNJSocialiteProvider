@@ -1,19 +1,23 @@
 {
     "name": "chillrend/pnj-socialite-provider",
     "description": "A Socialite Provider for PNJ SSO",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "type": "library",
     "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*",
         "socialiteproviders/manager": "^4.0"
     },
-    "require-dev": {
-        "socialiteproviders/generators": "^4.6"
-    },
-    "license": "MIT",
     "authors": [
         {
             "name": "Farhan Hanif",
             "email": "madjavacoder@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\PNJ\\": ""
+        }
+    }
 }
