@@ -1,0 +1,19 @@
+{
+    "name": "chillrend/pnj-socialite-provider",
+    "description": "A Socialite Provider for PNJ SSO",
+    "type": "library",
+    "require": {
+        "socialiteproviders/manager": "^4.0"
+    },
+    "require-dev": {
+        "socialiteproviders/generators": "^4.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farhan Hanif",
+            "email": "madjavacoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
