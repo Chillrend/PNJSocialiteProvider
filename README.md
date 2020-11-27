@@ -1,7 +1,7 @@
 # PNJ SSO Provider
 
 ```bash
-composer require socialiteproviders/claveunica
+composer require chillrend/pnj-socialite-provider
 ```
 
 ## Installation & Basic Usage
