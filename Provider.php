@@ -67,7 +67,6 @@ class Provider extends AbstractProvider
             'address' => $user['address'],
             'date_of_birth' => $user['date_of_birth'],
             'department_and_level' => $user['department_and_level'],
-            'iat' => $user['iat'],
         ]);
     }
 
