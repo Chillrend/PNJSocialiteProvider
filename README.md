@@ -54,7 +54,6 @@ return Socialite::driver('pnj')->redirect();
   - ``access_level_name`` the 'human readable' representation of the access level  
   - ``department`` the user's department
   - ``department_short_name`` the department short abbreviation or name 
-- ``iat`` the time of when the user is authenticated (UNIX Time)
 
 **JSON Representative of the user fields**
 ```json

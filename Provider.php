@@ -53,7 +53,6 @@ class Provider extends AbstractProvider
     }
 
     /**
-     * TODO: Change the fields after database migration
      *
      * {@inheritdoc}
      */
